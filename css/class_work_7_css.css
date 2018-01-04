@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.father {
+    width: 280px;
+    height: 280px;
+    border: 1px solid black;
+    position: relative;
+    top: 200px;
+    left: 500px;
+}
+
+img {
+    position: absolute;
+    top: 0;
+    -webkit-transition: all 1s ease;
+}
+
+.father:hover .img_style {
+    position: absolute;
+    top: -290px;
+}
+
+.father:hover .img_style1 {
+    position: absolute;
+    top: 290px;
+}
+
+.father:hover .img_style2 {
+    position: absolute;
+    left: 290px;
+}
+.father:hover .img_style3 {
+    position: absolute;
+    right: 290px;
+}
+.father:hover .img_style4 {
+    position: absolute;
+    bottom: 290px;
+}
+.father:hover .img_style5 {
+    position: absolute;
+    top: 290px;
+    left: 290px;
+}

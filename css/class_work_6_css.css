@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: red;
+    -webkit-animation: move 2s ease infinite alternate;
+}
+
+@-webkit-keyframes move {
+    from {
+        margin-left: 0;
+        background-color: red;
+    }
+    to {
+        margin-left: 1000px;
+        background-color: #d0eaff;
+    }
+
+}
+
+.box {
+    width: 280px;
+    height: 280px;
+    border: 1px solid black;
+    margin: auto auto;
+    background-image: url("../img/3.jpg");
+    animation: move_2 5s infinite alternate;
+}
+
+@keyframes move_2 {
+    0% {
+        background-image: url("../img/6.jpg");
+    }
+    25% {
+        background-image: url("../img/5.jpg");
+    }
+    50% {
+        background-image: url("../img/7.jpg");
+    }
+    75% {
+        background-image: url("../img/8.jpg");
+    }
+    100% {
+        background-image: url("../img/9.jpg");
+    }
+
+}

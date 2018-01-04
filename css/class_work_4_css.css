@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul {
+    width: 500px;
+    height: 50px;
+    outline: 1px solid red;
+}
+
+.nav ul li {
+    width: 100px;
+    height: 50px;
+    outline: 1px solid yellow;
+    list-style-type: none;
+    text-align: center;
+    line-height: 40px;
+    float: left;
+    cursor: pointer; /*变手指*/
+}
+
+.nav ul li:hover {
+    background-color: #d0eaff;
+}
+
+.show {
+    width: 500px;
+    height: 0px;
+    overflow: hidden;   /*超出范围的就隐藏*/
+    background-color: #b3ff99;
+    -webkit-transition: all 1s linear;
+}
+
+.nav ul li:hover .show {
+    height: 200px;
+}
