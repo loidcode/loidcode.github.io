@@ -3,7 +3,6 @@
     padding: 0;
 }
 
-
 .nav {
     width: 100%;
     height: 50px;
@@ -18,7 +17,6 @@
 .nav_list {
     width: 500px;
     height: 50px;
-    /*background-color: #d0eaff;*/
     float: left;
     text-align: center;
     line-height: 50px;
@@ -27,7 +25,6 @@
 .nav_list li {
     width: 100px;
     height: 50px;
-    /*outline: 1px solid red;*/
     float: left;
     list-style-type: none;
     color: white;
@@ -37,7 +34,6 @@
     width: 250px;
     height: 50px;
     float: right;
-    /*outline: 1px solid red;*/
     margin-top: 15px;
 
 }
@@ -66,7 +62,6 @@
 .banner {
     width: 1920px;
     height: 650px;
-    /*background-color: red;*/
     background-image: url("../images/banner1.jpg");
     animation: banner_move 6s infinite alternate;
 }
@@ -74,17 +69,11 @@
 @keyframes banner_move {
     0% {
         background-image: url("../images/banner2.jpg");
-    }
-
-    25% {
+    } 25% {
         background-image: url("../images/banner3.jpg");
-    }
-
-    75% {
+    } 75% {
         background-image: url("../images/banner4.jpg");
-    }
-
-    100% {
+    } 100% {
         background-image: url("../images/banner5.jpg");
     }
 }
@@ -132,4 +121,147 @@
 
 .center_content_p p {
     font-size: 14px;
+}
+
+.bottom_content {
+    width: 1124px;
+    height: 537px;
+    /*outline: 1px solid red;*/
+    position: relative;
+    top: 150px;
+}
+
+.top_left {
+    width: 562px;
+    height: 179px;
+    background-color: #8fffe7;
+    position: absolute;
+    top: 0;
+}
+
+.bottom_left {
+    width: 562px;
+    height: 358px;
+    /*outline: 2px solid blue;*/
+    position: absolute;
+    top: 179px;
+}
+
+
+.div_img {
+    float: left;
+    width: 281px;
+    height: 179px;
+    position: relative;
+}
+
+.div_img01 {
+    background-image: url("../images/zuo 1.jpg");
+}
+
+.div_img02 {
+    background-image: url("../images/zuo 2.jpg");
+}
+.div_img03 {
+    background-image: url("../images/zuo 3.jpg");
+}
+.div_img04 {
+    background-image: url("../images/zuo 4.jpg");
+}
+
+.top_right {
+    width: 562px;
+    height: 358px;
+    /*outline: 1px solid blue;*/
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.div_img_bg {
+    width: 562px;
+    height: 358px;
+    background-image: url("../images/you1.jpg");
+}
+
+.bottom_right {
+    width: 562px;
+    height: 179px;
+    /*outline: 1px solid green;*/
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.div_img05 {
+    background-image: url("../images/you2.jpg");
+}
+
+.div_img06 {
+    background-image: url("../images/you3.jpg");
+}
+.font_left {
+    width: 120px;
+    color: white;
+    /*outline: 1px solid grey;*/
+    border-right: 2px solid white;
+    position: absolute;
+    top: 70px;
+    left: 105px;
+}
+
+.font_left h5 {
+    font-size: 13px;
+    margin-left: 30px;
+}
+
+.font_right {
+    color: white;
+    position: absolute;
+    top: 70px;
+    right: 50px;
+}
+.font_right p {
+    font-size: 13px;
+}
+
+.font_right span {
+    text-align: center;
+    width: 50px;
+    color: #8fffe7;
+    background-color: white;
+    position: absolute;
+    top: 50px;
+}
+
+.font_in_img {
+    width: 240px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: bolder;
+    /*outline: 1px solid yellow;*/
+    position: absolute;
+    bottom: 10px;
+    color: white;
+    margin-left: 20px;
+}
+
+.div_img_bg_center {
+    width: 562px;
+    /*outline: 2px solid yellow;*/
+    color: white;
+    font-weight: bolder;
+    position: absolute;
+    top: 140px;
+    text-align: center;
+}
+
+.button {
+    line-height: 40px;
+    width: 100px;
+    height: 40px;
+    display: block;
+    border: 1px solid #8fffe7;
+    margin: 20px auto;
+
 }
